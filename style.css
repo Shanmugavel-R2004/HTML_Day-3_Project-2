@@ -1,0 +1,95 @@
+h1{
+    color: #0f5571;
+    border: 3px solid black;
+    background-color: #a4c76a;
+    border-radius: 50px;
+    width: 250px;
+    }
+#ear-container{
+    position: absolute;
+    /*border: 3px solid black;*/
+    width: 500px;
+    height: 150px;
+    top: 130px;
+    left: 462px;
+}
+#left-ear,#right-ear{
+    position: absolute;
+    border: 5px solid black;
+    height: 130px;
+    width: 130px;
+    background-color: pink;
+    border-radius: 60px;
+    z-index: -30;
+}
+#right-ear{
+    left: 300px;
+}
+#face{
+     border: 4px solid black;
+     height: 350px;
+     width:350px;
+     background-color:pink;
+     border-radius: 200px;
+     margin-top: 100px;
+ }
+ #eye-container{
+     position: absolute;
+     /* border:1px solid black;*/
+     width: 250px;
+     height: 90px;
+     top:230px;
+     left: 552px;
+ }
+ #left-eye,#right-eye{
+     position: absolute;
+     border: 5px solid black;
+     height: 100px;
+     width: 100px;
+     background-color: white;
+     border-radius: 200px;
+ }
+ #right-eye{
+     left:160px;
+ }
+ #left-eye::before,#right-eye::before{
+     content: "";
+     position: absolute;
+     border: 2px solid black;
+     width: 50px;
+     height: 50px;
+     background-color: black;
+     border-radius: 200px;
+     top:23px;
+     left: 24px;
+ }
+ #left-eye{
+     right:150px;
+ }
+ #nose{
+     position: absolute;
+     border: 5px solid black;
+     height:90px;
+     width:140px;
+     background-color: #ff5490;
+     top: 380px;
+     left:610px;
+     border-radius: 42px 42px 45px 42px;
+ }
+ #left-nose,#right-nose{
+    position: absolute;
+    border: 3px solid black;
+    height: 38px;
+    width: 30px;
+    bottom: 24px;
+    left: 20px;
+    background-color: black;
+    border-radius: 75px 75px;
+ }
+ #right-nose{
+    left: 80px;
+}
+ body{
+     background-color: #a0c0ab;
+ }
+ 
